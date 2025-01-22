@@ -22,7 +22,7 @@ title: ALMF
 email: info@signalcompose.com
 description: >- # this means to ignore newlines until "baseurl:"
   このサイトはALMFの活動記録とM3等で制作・配布した音楽作品などのカタログページです。
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://almf.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
