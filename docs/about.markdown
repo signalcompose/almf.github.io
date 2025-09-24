@@ -24,7 +24,7 @@ M3（Music Media-mix Market）などの同人音楽イベントに定期的に�
 新しいアーティストやクリエイターの参加を歓迎しています。定期的にオープンコールを実施し、多様な背景を持つクリエイターとのコラボレーションを推進しています。
 
 ### ワークショップ・ラボ活動
-[FabCafe Tokyo](https://fabcafe.com/jp/labs/tokyo/almf_lab/)などと連携し、音楽制作に関するワークショップやラボ活動を展開。デジタルファブリケーションと音楽の融合など、新しい創作手法の探求も行っています。
+[FabCafe Tokyo](https://fabcafe.com/jp/labs/tokyo/almf_lab/)や[FabCafe Nagoya](https://fabcafe.com/jp/nagoya/)などと連携し、音楽制作に関するワークショップやラボ活動を展開。デジタルファブリケーションと音楽の融合など、新しい創作手法の探求も行っています。
 
 ## コンセプト
 
