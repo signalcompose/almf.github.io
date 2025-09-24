@@ -4,7 +4,7 @@ layout: default
 
 ## 最新の記事
 
-{% for post in site.posts %}
+{% for post in site.posts limit:5 %}
 <div style="margin-bottom: 40px;">
   <h3 style="margin-bottom: 5px;">
     <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #267CB9;">{{ post.title }}</a>
@@ -18,3 +18,9 @@ layout: default
   </p>
 </div>
 {% endfor %}
+
+<div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd;">
+  <a href="{{ "/archive/" | relative_url }}" style="background: #267CB9; color: white; padding: 10px 30px; border-radius: 5px; text-decoration: none; display: inline-block;">
+    すべての記事を見る →
+  </a>
+</div>
