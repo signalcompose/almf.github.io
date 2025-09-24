@@ -6,63 +6,28 @@ permalink: /archive/
 
 # Archive
 
-## 年月別アーカイブ
+## 記事アーカイブ
 
 {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%Y年%m月'" %}
 {% for yearMonth in postsByYearMonth %}
-<details style="margin-bottom: 20px;">
-  <summary style="cursor: pointer; font-weight: bold; padding: 10px; background: #f5f5f5; border-radius: 4px;">
+<div style="margin-bottom: 30px;">
+  <h3 style="padding: 10px; background: #f5f5f5; border-radius: 4px;">
     {{ yearMonth.name }} ({{ yearMonth.size }}件)
-  </summary>
-  <div style="padding: 15px;">
+  </h3>
+  <div style="padding-left: 20px;">
     {% for post in yearMonth.items %}
-    <div style="margin-bottom: 10px;">
-      <a href="{{ post.url | relative_url }}" style="color: #267CB9; text-decoration: none;">{{ post.title }}</a>
-      <span style="color: #666; font-size: 14px; margin-left: 10px;">{{ post.date | date: "%m月%d日" }}</span>
+    <div style="margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #eee;">
+      <h4 style="margin: 0 0 5px 0;">
+        <a href="{{ post.url | relative_url }}" style="color: #267CB9; text-decoration: none;">{{ post.title }}</a>
+      </h4>
+      <p style="color: #666; font-size: 14px; margin: 5px 0;">
+        {{ post.date | date: "%Y年%m月%d日" }}
+      </p>
+      <p style="line-height: 1.6; margin: 10px 0;">
+        {{ post.content | strip_html | truncate: 150 }}
+      </p>
     </div>
     {% endfor %}
   </div>
-</details>
+</div>
 {% endfor %}
-
-## カテゴリ別アーカイブ
-
-{% assign categories = site.posts | map: "categories" | uniq | sort %}
-{% for category in categories %}
-  {% if category %}
-  <h3>{{ category | capitalize }}</h3>
-  <ul style="list-style: none; padding: 0; margin-bottom: 30px;">
-    {% for post in site.posts %}
-      {% if post.categories contains category %}
-      <li style="margin-bottom: 10px;">
-        <a href="{{ post.url | relative_url }}" style="color: #267CB9; text-decoration: none;">{{ post.title }}</a>
-        <span style="color: #666; font-size: 14px; margin-left: 10px;">{{ post.date | date: "%Y年%m月%d日" }}</span>
-      </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  {% endif %}
-{% endfor %}
-
-## すべての記事
-
-<table style="width: 100%; border-collapse: collapse;">
-  <thead>
-    <tr style="border-bottom: 2px solid #ddd;">
-      <th style="text-align: left; padding: 10px;">タイトル</th>
-      <th style="text-align: left; padding: 10px;">日付</th>
-      <th style="text-align: left; padding: 10px;">カテゴリ</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for post in site.posts %}
-    <tr style="border-bottom: 1px solid #eee;">
-      <td style="padding: 10px;">
-        <a href="{{ post.url | relative_url }}" style="color: #267CB9; text-decoration: none;">{{ post.title }}</a>
-      </td>
-      <td style="padding: 10px; color: #666;">{{ post.date | date: "%Y年%m月%d日" }}</td>
-      <td style="padding: 10px; color: #666;">{{ post.categories | join: ", " }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
