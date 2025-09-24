@@ -1,0 +1,11 @@
+<div class="album-grid" style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items:start;">
+  {% for a in site.data.albums %}
+  <div>
+    <a href="{{ a.url }}">
+      <img src="{{ a.image }}" alt="{{ a.title }}" style="width:100%; height:auto;" loading="lazy" />
+    </a>
+    <p><strong>{{ a.title }}</strong><br/>
+    <em>Various Artists / Released: {{ a.date }}</em></p>
+  </div>
+  {% endfor %}
+</div>
