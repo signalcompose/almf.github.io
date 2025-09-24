@@ -39,7 +39,6 @@ ALMFでは、音楽の新しい表現方法を探求するトークイベント�
 
 ## 連絡先
 
-- **Email**: [info@signalcompose.com](mailto:info@signalcompose.com)
 - **X (Twitter)**: [@ALMF_fcsc](https://x.com/ALMF_fcsc)
 - **Bandcamp**: [Signal Compose Music](https://signalcomposemusic.bandcamp.com/)
 
