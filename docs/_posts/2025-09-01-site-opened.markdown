@@ -5,7 +5,7 @@ date: 2025-09-01 14:00:00 +0900
 categories: announcement
 ---
 
-ALMF（Alternative Music Lab FabCafe）の公式サイトをオープンいたしました。
+ALMFの公式サイトをオープンいたしました。
 
 ## サイトについて
 
