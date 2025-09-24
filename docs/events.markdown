@@ -19,8 +19,6 @@ ALMFでは音楽の新しい表現と体験を探求するイベントを開催�
 
 [イベント詳細](https://fabcafe.com/jp/events/nagoya230702_kamikyoku_almf/)
 
----
-
 ### 神曲のツボをさらに知る
 **開催日**: 2023年1月8日  
 **会場**: FabCafe Nagoya  
@@ -29,8 +27,6 @@ ALMFでは音楽の新しい表現と体験を探求するイベントを開催�
 『神曲のツボ！「カッコいい」の構造分析』の著者による実演を交えた解説イベント。神曲がなぜカッコいいのか、エモくなるのか、ブルージーになるのか、音楽理論に触れたことない方でも理解できるトークイベント。
 
 [イベント詳細](https://fabcafe.com/jp/events/nagoya/230108_kamikyoku_almf/) | [イベントレポート](https://fabcafe.com/jp/magazine/nagoya/230120_kamikyoku_no_tubo)
-
----
 
 ### 宿題やったかフェス - ビートと音楽に触れる夏
 **開催日**: 2022年9月3日  
@@ -41,8 +37,6 @@ STILL ALIVE 国際芸術祭「あいち2022」パートナーシップ事業。�
 
 [イベント詳細](https://fabcafe.com/jp/events/nagoya/shukudai2022/) | [イベントレポート](https://fabcafe.com/jp/magazine/nagoya/220903-syukudaiyattakafes-Spatial+presentation)
 
----
-
 ### 廻転 - DIY Instrumental Performance
 **開催日**: 2022年3月26日  
 **会場**: FabCafe Nagoya
@@ -50,8 +44,6 @@ STILL ALIVE 国際芸術祭「あいち2022」パートナーシップ事業。�
 デジタルファブリケーションやIoTを活用し、パーソナライズされたDIY楽器によるライブパフォーマンス。新しい表現を探る個性豊かなプレイヤーたちの楽器と演奏法を拡張していくアプローチを体感。
 
 [イベント詳細](https://fabcafe.com/jp/events/nagoya/220326_rotation/) | [イベントレポート](https://fabcafe.com/jp/magazine/nagoya/2204_rotation_report/)
-
----
 
 ### 音楽理論の身体性 第三回 〜Beyond the chordal music〜
 **開催日**: 2021年12月19日  
@@ -62,8 +54,6 @@ STILL ALIVE 国際芸術祭「あいち2022」パートナーシップ事業。�
 
 [イベント詳細](https://note.com/almf/n/n0b122f3335e1) | [アーカイブ映像](https://vimeo.com/ondemand/almf5/661766338)
 
----
-
 ### 音楽理論の身体性 第二回 ドミナント活用の醍醐味
 **開催日**: 2021年10月17日  
 **会場**: FabCafe Tokyo  
@@ -72,8 +62,6 @@ STILL ALIVE 国際芸術祭「あいち2022」パートナーシップ事業。�
 ドミナントとは何か、そしてどのように演奏すればいいのか？スタンダードジャズを演奏する際の重要な問題について深く探求。
 
 [イベント詳細](https://note.com/almf/n/n7b0d3791a313) | [アーカイブ映像](https://vimeo.com/ondemand/almf4/654013283)
-
----
 
 ### 音楽理論の身体性 アドリブにおける奏者の主観／方法の再現可能性
 **開催日**: 2021年8月30日  
@@ -84,8 +72,6 @@ STILL ALIVE 国際芸術祭「あいち2022」パートナーシップ事業。�
 
 [イベント詳細](https://note.com/almf/n/n9ff982cd6296) | [アーカイブ映像](https://vimeo.com/ondemand/almf3/630229238)
 
----
-
 ### ALMF#2「音楽と（楽器としての）ハードウェア」
 **開催日**: 2020年10月21日  
 **会場**: FabCafe Tokyo  
@@ -94,8 +80,6 @@ STILL ALIVE 国際芸術祭「あいち2022」パートナーシップ事業。�
 楽器としてのハードウェアを通して「音楽を作る、関わる」とはどういうことか？を探求。MIDI野郎などでお馴染みの技術者をお迎えし、音楽制作の新しい可能性について議論。
 
 [イベント詳細](https://fabcafe.com/jp/events/tokyo/almf_pre2/) | [アーカイブ映像](https://vimeo.com/ondemand/almf2/630204280?autoplay=1)
-
----
 
 ### ALMF#1「これまでの音楽」
 **開催日**: 2020年8月25日  
@@ -120,16 +104,12 @@ STILL ALIVE 国際芸術祭「あいち2022」パートナーシップ事業。�
 - M3-2024春（2024年4月27日）- 「雲水 Un-sui」リリース
 - M3-2023秋（2023年10月） - 「泥雲 Dei-un」リリース
 
----
-
 ## 今後の予定
 
 ### オープンコール展示・パフォーマンス
 現在、新しいアーティストの参加を募集中。集まった作品の展示やパフォーマンスイベントを計画中です。
 
 詳細は[Open Call](/opencall/)ページをご覧ください。
-
----
 
 ## お問い合わせ
 
