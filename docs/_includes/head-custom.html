@@ -1,15 +1,57 @@
 <!-- start custom head snippets -->
 <style>
   nav ul li {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
   nav ul li a {
     color: #267CB9;
     text-decoration: none;
     font-weight: 500;
+    font-size: 16px;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
   }
   nav ul li a:hover {
-    text-decoration: underline;
+    background-color: #f0f7ff;
+    text-decoration: none;
+    transform: translateX(2px);
+  }
+  
+  /* オープンコールを特別に目立たせる */
+  nav ul li.opencall-menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  nav ul li.opencall-menu a {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 0 4px 15px 0 rgba(102, 126, 234, 0.4);
+    position: relative;
+    overflow: hidden;
+  }
+  nav ul li.opencall-menu a::before {
+    content: "🎵";
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    opacity: 0.7;
+  }
+  nav ul li.opencall-menu a:hover {
+    transform: translateX(4px) translateY(-1px);
+    box-shadow: 0 6px 20px 0 rgba(102, 126, 234, 0.5);
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  }
+  
+  /* 現在のページをハイライト */
+  nav ul li a.current {
+    background-color: #e8f2ff;
+    font-weight: 600;
   }
 </style>
 <!-- end custom head snippets -->
