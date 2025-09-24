@@ -21,7 +21,14 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p style="margin-bottom: 5px;">{{ site.description | default: site.github.project_tagline }}</p>
+        
+        <!-- Social Links -->
+        <p style="font-size: 13px; margin: 0 0 20px 0;">
+          <a href="https://x.com/ALMF_fcsc" style="color: #267CB9; text-decoration: none;">Twitter</a>
+          ·
+          <a href="https://signalcomposemusic.bandcamp.com/" style="color: #267CB9; text-decoration: none;">Bandcamp</a>
+        </p>
 
         <!-- Navigation Menu -->
         <nav>
@@ -42,15 +49,19 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
+        
+        <!-- Footer in sidebar -->
+        <div style="margin-top: 25px; padding-top: 15px; border-top: 1px solid #e1e4e8;">
+          <p style="color: #586069; font-size: 11px;">
+            © {{ site.title }} {{ site.time | date: '%Y' }}
+          </p>
+        </div>
       </header>
       <section>
 
       {{ content }}
 
       </section>
-      <footer>
-        <p><small>© {{ site.title }} {{ site.time | date: '%Y' }}</small></p>
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
