@@ -4,8 +4,6 @@ title: Open Call
 permalink: /opencall/
 ---
 
-[Home](/) | [About](/about/) | [Catalog](/catalog/)
-
 # Open Call
 
 

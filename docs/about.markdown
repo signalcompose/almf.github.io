@@ -4,19 +4,41 @@ title: About
 permalink: /about/
 ---
 
-[Home](/) | [Catalog](/catalog/) | [Open Call](/opencall/)
-
 # About
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+## ALMFについて
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+ALMF（Academy for Liberal Musical Future）は、未来の自由な音楽のあり方を探求する音楽コミュニティです。
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+私たちは、ジャンルや形式にとらわれない実験的な音楽制作を通じて、新しい音楽表現の可能性を追求しています。電子音楽、アンビエント、実験音楽など、多様な音楽スタイルを横断しながら、アーティスト同士のコラボレーションを促進し、革新的な作品を生み出しています。
 
+## 活動内容
 
-[jekyll-organization]: https://github.com/jekyll
+### コンピレーションアルバムの制作
+M3などの音楽イベントに向けて、複数のアーティストが参加するコンピレーションアルバムを定期的に制作・リリースしています。これまでに「泥雲」「雲水」「Pointcloud」「一滴まで」などの作品を発表してきました。
+
+### 音楽イベントへの参加
+M3（Music Media-mix Market）などの同人音楽イベントに定期的に参加し、制作した作品の頒布や、来場者との交流を行っています。
+
+### オープンコール
+新しいアーティストやクリエイターの参加を歓迎しています。定期的にオープンコールを実施し、多様な背景を持つクリエイターとのコラボレーションを推進しています。
+
+### ワークショップ・ラボ活動
+[FabCafe Tokyo](https://fabcafe.com/jp/labs/tokyo/almf_lab/)などと連携し、音楽制作に関するワークショップやラボ活動を展開。デジタルファブリケーションと音楽の融合など、新しい創作手法の探求も行っています。
+
+## コンセプト
+
+「Liberal Musical Future（自由な音楽の未来）」というコンセプトのもと、以下の価値を大切にしています：
+
+- **実験性** - 既存の枠組みにとらわれない音楽表現の探求
+- **多様性** - 様々なバックグラウンドを持つアーティストの参加を歓迎
+- **協働性** - アーティスト間のコラボレーションによる新しい価値の創造
+- **開放性** - オープンな環境での知識とスキルの共有
+
+## 連絡先
+
+- **Email**: [info@signalcompose.com](mailto:info@signalcompose.com)
+- **X (Twitter)**: [@ALMF_fcsc](https://x.com/ALMF_fcsc)
+- **Bandcamp**: [Signal Compose Music](https://signalcomposemusic.bandcamp.com/)
+
+新しいプロジェクトへの参加や、コラボレーションのご提案など、お気軽にご連絡ください。
