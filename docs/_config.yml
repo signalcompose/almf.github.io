@@ -19,6 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: ALMF
+logo: https://pbs.twimg.com/profile_images/1306070010561921024/OrQN_fV5_400x400.jpg
 email: info@signalcompose.com
 description: >- # this means to ignore newlines until "baseurl:"
   このサイトはALMFの活動記録とM3等で制作・配布した音楽作品などのカタログページです。
@@ -26,11 +27,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://almf.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+show_downloads: false
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/minimal@master
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.

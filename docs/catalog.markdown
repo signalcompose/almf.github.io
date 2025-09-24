@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: default
 title: Catalog
 permalink: /catalog/
 ---
+
+[Home](/) | [About](/about/) | [Open Call](/opencall/)
 
 # Catalog
 
