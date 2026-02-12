@@ -65,6 +65,8 @@ almf.github.io/
 │   ├── events.markdown     # イベントページ
 │   ├── opencall.markdown   # Open Callページ
 │   └── index.markdown      # トップページ
+├── assets/                  # 静的アセット（画像、CSS、JSなど）
+│   └── images/             # 画像ファイル（ブログ記事用画像など）
 ├── .github/
 │   └── workflows/
 │       └── jekyll-gh-pages.yml  # GitHub Actions自動デプロイ設定
@@ -118,6 +120,32 @@ almf.github.io/
 - **現在の運用**: ブランチプロテクションは未設定のため、`main` ブランチへの直接プッシュが可能
   - 将来的に、feature ブランチ → PR → レビュー → main マージのワークフローへ移行を推奨
 
+### コードレビューワークフロー
+
+**コミット前のコードレビュー**（Claude Code の hook で強制）:
+
+```bash
+# 1. 変更をステージング
+git add <files>
+
+# 2. コードレビュー実行
+/code:review-commit
+
+# 3. レビュー完了後、コミット
+git commit -m "commit message"
+```
+
+**レビュープロセス**:
+- pr-review-toolkit:code-reviewer エージェントが自動レビュー
+- critical/important 問題を検出・報告
+- レビュー承認後、approve-review.sh スクリプトが承認ハッシュを保存
+- Claude Code の hook が承認ハッシュを検証してコミット許可
+
+**注意**:
+- コミット前に必ず `/code:review-commit` を実行すること
+- Claude Code 使用時、コードレビューが自動的に要求される
+- レビュー未実施の場合、コミット時にエラーが表示される
+
 ## Common Tasks
 
 ### 新しいブログ記事を作成
@@ -130,11 +158,40 @@ almf.github.io/
 layout: post
 title: "記事タイトル"
 date: YYYY-MM-DD HH:MM:SS +0900
-categories: news
+author: ALMF
+categories: news events
+tags: [タグ1, タグ2, タグ3]
 ---
 
 記事本文をここに書く...
 ```
+
+**フロントマターフィールド**:
+- `layout`: 必須（通常は `post`）
+- `title`: 記事タイトル
+- `date`: 公開日時（タイムゾーン `+0900` 必須）
+- `author`: 著者名（記事に "by 著者名" と表示される）
+- `categories`: カテゴリ（スペース区切り、例: `news events`）
+- `tags`: タグリスト（`[tag1, tag2, tag3]` 形式）
+
+**画像の追加**:
+1. 画像を `assets/images/` ディレクトリに配置
+2. 記事内で `/assets/images/filename.jpg` として参照
+3. 画像の回り込みを防ぐには HTML + CSS を使用:
+   ```html
+   <div style="margin: 20px 0;">
+     <img src="/assets/images/image.jpg" alt="説明"
+          style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
+   </div>
+   ```
+
+**注意事項**:
+- 画像パスは `/assets/images/` で始める（`docs/` は含めない）
+  - Jekyll ビルド後のパスを使用（`baseurl` が空のため `/` から始まる）
+  - 実際のファイル配置: `assets/images/filename.jpg`
+  - 記事内参照: `/assets/images/filename.jpg`
+- タグは YAML リスト形式 `[tag1, tag2]` で記述
+- `author` フィールドがないと著者名が表示されない
 
 ### 新しいアルバムをカタログに追加
 
